@@ -1,43 +1,46 @@
-class ToastIt {
-    static mensaje = 'Mensaje predeterminado'
-    static tono = 'toast-generic'
+/*
+    Copyright 2023-06-16: Fernando Omar Luna (just another average JS coder)
+    This library is free of use and modify, but, please, don't remove this message
+    Send me an email to: ferproonline_at_gmail.com, or DMme by Twitter: @mobilepadawan
+    You can write me in (english, español, oppure l'italiano)
+*/
+export default class ToastIt {
+    static message = 'Mensaje predeterminado'
+    static style = 'toast-generic'
     static pause = false
-    static closeButton = ''
-    static now({estilo, mensaje, timer, close}) {
-        if (!close) {
-            this.closeButton = false
-        }
-        if (!timer || timer > 10000) {
-            timer = 3500
-        }
-        switch (estilo) {
+    static closeButton = false
+    static now({style, message, timer, close}) {
+        this.closeButton = !close && false || close
+        this.timer = timer > 10000 && 3500 || timer
+        switch (style.toLowerCase() || '') {
             case 'info':
-                this.tono = 'toast-info'
+                this.style = 'toast-info'
                 break
-            case 'exito':
-                this.tono = 'toast-success'
+            case 'success':
+                this.style = 'toast-success'
                 break
-            case 'alerta':
-                this.tono = 'toast-warning'
+            case 'alert':
+                this.style = 'toast-warning'
                 break
             case 'error':
-                this.tono = 'toast-error'
+                this.style = 'toast-error'
                 break
             default:
-                this.tono = 'toast-generic'
+                this.style = 'toast-generic'
                 break
         }
-        close ? this.closeButton = true : this.closeButton = false
+        this.closeButton = close ? true : false
         const divToast = document.createElement('div')
               divToast.classList.add('toast-div')
               divToast.classList.add('toast-generic')
-              divToast.classList.replace('toast-generic', this.tono)
-              divToast.innerHTML = mensaje || 'Mensaje predeterminado' 
+              divToast.classList.replace('toast-generic', this.style)
+              divToast.innerHTML = message || 'Mensaje predeterminado'
               divToast.style.opacity = 0
               if (this.closeButton) {
                   const spanClose = document.createElement('span')
                   spanClose.classList.add('toast-span-close')
-                  spanClose.textContent = ' Ⓧ '
+                  spanClose.style.fontSize = 'medium'
+                  spanClose.textContent = ' ⓧ '
                   spanClose.addEventListener('click', ()=> divToast.remove())
                   divToast.appendChild(spanClose)
               }
@@ -50,16 +53,14 @@ class ToastIt {
             }, 0.1)
             if (!this.pause) {
                 setTimeout(()=> {
-                    let i = 110
+                    let i = 150
                     const si = setInterval(()=> {
                         i--
-                        divToast.style.opacity = (i / 110).toFixed(1)
+                        divToast.style.opacity = (i / 150).toFixed(1)
                         i <= 0 && clearInterval(si)
                     }, 0.1)
-                }, timer || 3500)
+                    setTimeout(()=> divToast.remove(), 200)
+                }, this.timer || 3500)
             }
-    }
-    #hideToast() {
-        console.warn('A coming feature for pausing the toast message putting the mouse over it.')
     }
 }
