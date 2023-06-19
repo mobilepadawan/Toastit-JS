@@ -27,6 +27,6 @@ ToastIt.now({
 )
 ```
 
-These parameters should be added as an object parameter, to the **now()** method.
+These parameters should be added as an object parameter, into the parenthesis of **.now()** method.
 
 4. You can start enjoying this simple but effective library. 🥂
