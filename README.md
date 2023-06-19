@@ -47,6 +47,7 @@ These parameters should be added as an object parameter, into the parenthesis of
 ## Toast-It in action
 
 You have an example to show how runs Toast-It in a desktop webapp.
-![Toast-It running in a desktop webapp]([https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/ToastIt-JS/images/showing-toast-it-in-action-01.gif)https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/ToastIt-JS/images/showing-toast-it-in-action-01.gif)
+
+![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/ToastIt-JS/images/showing-toast-it-in-action-01.gif)
 
 
