@@ -50,4 +50,8 @@ You have an example to show how runs Toast-It in a desktop webapp.
 
 ![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/ToastIt-JS/images/showing-toast-it-in-action-01.gif)
 
+And here is another example about Toast-It running in mobile screens. Please, be careful with the length of text messages to show. 
 
+![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/ToastIt-JS/images/showing-toast-it-in-action-02.gif)
+
+We are evaluating how to solve this and/or if it's convenient to cut (truncate) the text messages exceeded in length.
