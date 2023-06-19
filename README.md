@@ -49,12 +49,12 @@ These parameters should be added as an object parameter, into the parenthesis of
 
 You have an example to show how Toast-It runs in a desktop webapp.
 
-![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/ToastIt-JS/images/showing-toast-it-in-action-01.gif)
+![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/images/showing-toast-it-in-action-01.gif)
 
 And here is another example about Toast-It running in mobile screens. 
 PS: _Please, be careful with the length of text messages to show._
 
-![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/ToastIt-JS/images/showing-toast-it-in-action-02.gif)
+![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/images/showing-toast-it-in-action-02.gif)
 
 <hr>
 
