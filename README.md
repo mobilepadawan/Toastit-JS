@@ -46,12 +46,21 @@ These parameters should be added as an object parameter, into the parenthesis of
 
 ## Toast-It in action
 
-You have an example to show how runs Toast-It in a desktop webapp.
+You have an example to show how Toast-It runs in a desktop webapp.
 
 ![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/ToastIt-JS/images/showing-toast-it-in-action-01.gif)
 
-And here is another example about Toast-It running in mobile screens. Please, be careful with the length of text messages to show. 
+And here is another example about Toast-It running in mobile screens. 
+PS: _Please, be careful with the length of text messages to show._
 
 ![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/ToastIt-JS/images/showing-toast-it-in-action-02.gif)
 
-We are evaluating how to solve this and/or if it's convenient to cut (truncate) the text messages exceeded in length.
+<hr>
+
+### About the messages with an overlength text...
+We are evaluating how to solve this thinking a couple of possible scenarios: 
+* To cut (truncate) the text messages exceeded in length
+* To hide automatically the close button to give its place to the hole text message length.
+   * To add a fallback action based on double click or double tap over the Toast-It to close the message
+ 
+**The feature we picked it up will be included in the future versions of its Library.**
