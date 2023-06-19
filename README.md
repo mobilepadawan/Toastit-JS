@@ -12,7 +12,7 @@ After that, you should integrar in your JS project code files the following sint
    (_Yes, the  **JS ToastIt file** goes in the top, not at the end of the HTML file_) 
    
 ```javascript
-import ToastIt from "../path/to/js-library/toastitv1.0.js";
+import ToastIt from "../path/to/js/library/toastitv1.0.js";
 ```
 
 3. Just configure the 4 basic parameter to start using Toasti-It. ⚙️
