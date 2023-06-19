@@ -6,13 +6,15 @@ You just download and refer into your `<head>` and `</head>` HTML file the `toas
 
 After that, you should integrar in your JS project code files the following sintax:
 
-1. Your JS coding file should be declared as type="module".
+1. Your JS coding file should be declared as `type="module"`.
 2. Add to the top of your JS coding file the import statement for JS module files.
+   
 ```javascript
 import ToastIt from "../path/to/js-library/toastitv1.0.js";
 ```
 
 3. Just configure the 4 basic parameter to start using Toasti-It.
+   
 ```javascript
 ToastIt.now({
             close: true, 
@@ -22,6 +24,7 @@ ToastIt.now({
         }
 )
 ```
+
 These parameters should be added as an object parameter, to the **now()** method.
 
 4. You can startign enjoy this simple but effective library.
