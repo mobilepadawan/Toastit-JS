@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css');
-@import url('../developer/toastitv1.0.css');
+@import url('../src/developer/toastitv1.0.css');
 
 html {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    /* color-scheme: dark; */
     margin: 8px;
 }
 
 p,
 select,
 input,
-span {
+span, div {
     font-size: large;
 }
 
@@ -33,8 +32,34 @@ tbody tr:hover {
     background: rgba(0, 0, 0, 0.679);
 }
 
-.button-big-emoji {
+.img-logo {
+    padding: 10px;
+    width: 60px;
+    float: left;
+}
+
+div.image-sample {
+    text-align: center !important;
+}
+
+div.image-sample img {
+    width: 600px;
+}
+
+.theme-picker {
+    float: right;
+    display: flex;
+    align-items: end;
+    align-content: stretch;
+}
+
+.emoji {
+    cursor: pointer;
     font-size: x-large;
+    border-radius: 8px;
+    filter: grayscale(80%);
+    padding: 3px 10px 3px 10px;
+    border: 1px solid lightgray;
 }
 
 .button-generic {
