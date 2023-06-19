@@ -8,7 +8,7 @@ After that, you should integrar in your JS project code files the following sint
 
 1. Your JS coding file should be declared as `type="module"`. 
 
-2. Add to the top of your JS coding file the import statement for JS module files. 🔝 (_Yes, the  **JS ToastIt file** go in the top, not at the end of the HTML file_) 
+2. Add to the top of your JS coding file the import statement for JS module files. 🔝 (_Yes, the  **JS ToastIt file** goes in the top, not at the end of the HTML file_) 
    
 ```javascript
 import ToastIt from "../path/to/js-library/toastitv1.0.js";
