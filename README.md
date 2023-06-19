@@ -1,5 +1,5 @@
 # Toast-It JS
-A very simple toast message for the web. (only 1.57 kb)
+A very simple toast message for the web. (`only 1.57 kb`)
 
 ## How to use it
 You just download and refer into your `<head>` and `</head>` HTML file the `toastitv1.0-min.css` and `toastitv1.0-min.js` files.
