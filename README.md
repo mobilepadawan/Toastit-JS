@@ -1,13 +1,20 @@
 # Toast-It JS
-A very simple toast message for the web. (`only 1.57 kb`).
+A very simple toast message for the web. (`only 1.57 kb`). ⚖️
 
-Here you have a Website for testing me in action: [Toast-It Website](https://mobilepadawan.github.io/toastit-js/)
+Here you have the [Toast-It Website](https://mobilepadawan.github.io/toastit-js/) for watching me in action. 👀
 
 ## How to use it
 Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` Toast-It files.
 Integrate thes efiles in your Web Project throughthe following sintax:
 
-1. Your JS maing file must be declared as `type="module"`.
+0. we can't use this JS class as a CDN, yet. In the coming version we'll add this optional feature.
+
+```html
+            <!-- CDN is not supported yet -->
+<script src="../path/to/cdn/library/toastitv1.0.js"></script>
+```
+
+2. Your JS maing file must be declared as `type="module"`.
 
 ### CSS configuration
 2. Add the CSS file in the `<head>` metatag in every HTML document where you'll want to use Toast-It.
