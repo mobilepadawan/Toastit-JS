@@ -11,7 +11,7 @@ Integrate thes efiles in your Web Project throughthe following sintax:
 
 ```html
 <!-- CDN is not supported yet. Please, come back later -->
-<script src="../path/to/cdn/library/toastitv1.0.js"></script>
+<script src="../path/to/cdn/library/toastitv1.0-min.js"></script>
 ```
 
 2. Your JS maing file must be declared as `type="module"`.
