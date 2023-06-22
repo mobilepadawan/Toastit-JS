@@ -76,7 +76,7 @@ We are evaluating how to solve this thinking a couple of possible scenarios:
 
 <hr>
 
-## Upcoming features (in evaluation)
+## Upcoming features (we are working on it)
 
 These features are under revision. We'll inform you throw this way if this features will be available or discarded.
 
