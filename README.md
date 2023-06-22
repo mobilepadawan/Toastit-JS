@@ -76,9 +76,9 @@ We are evaluating how to solve this thinking a couple of possible scenarios:
 
 <hr>
 
-## Future addings
+## Upcoming features (in evaluation)
 
-They are in revision. We'll inform you here, if this features will be available or discarded.
+These features are under revision. We'll inform you throw this way if this features will be available or discarded.
 
 [] Use Toast-It JS by CDN referencing.
 [] Change the position of the Toast in screen.
