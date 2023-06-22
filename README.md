@@ -1,6 +1,7 @@
 # Toast-It JS
-A very simple toast message for the web. (`only 1.57 kb`)
-This is the Website for testing me in action: [Toast-It Website](https://mobilepadawan.github.io/toastit-js/)
+A very simple toast message for the web. (`only 1.57 kb`).
+
+Here you have a Website for testing me in action: [Toast-It Website](https://mobilepadawan.github.io/toastit-js/)
 
 ## How to use it
 Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` Toast-It files.
