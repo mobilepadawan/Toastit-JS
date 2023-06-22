@@ -7,7 +7,7 @@ Here you have the [Toast-It Website](https://mobilepadawan.github.io/toastit-js/
 Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` Toast-It files.
 Integrate thes efiles in your Web Project throughthe following sintax:
 
-0. we can't use this JS class as a CDN, yet. In the coming version we'll add this optional feature.
+0. we can't use this JS class as a CDN, yet. In the upcoming version we'll add this optional feature.
 
 ```html
             <!-- CDN is not supported yet -->
