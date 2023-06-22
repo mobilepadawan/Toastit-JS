@@ -35,7 +35,7 @@ export default class ToastIt {
               divToast.classList.add('toast-generic')
               divToast.classList.replace('toast-generic', this.style)
               divToast.style.fontSize = 'larger !important'
-              divToast.innerHTML = `${message}` || 'Mensaje predeterminado'
+              divToast.innerHTML = `${message}` || this.message
               divToast.style.opacity = 0
               if (this.closeButton) {
                   const spanClose = document.createElement('span')
