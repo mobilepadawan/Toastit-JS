@@ -20,7 +20,7 @@ Integrate thes efiles in your Web Project throughthe following sintax:
 2. Add the CSS file in the `<head>` metatag in every HTML document where you'll want to use Toast-It.
 
 ```CSS
-<link rel="stylesheet" href="../path/to/css/library/toastitv1.0.css">
+<link rel="stylesheet" href="../path/to/css/library/toastitv1.0-min.css">
 ```
 Or you can also import it into your primary CSS file.
 
