@@ -80,9 +80,9 @@ We are evaluating how to solve this thinking a couple of possible scenarios:
 
 These features are under revision. We'll inform you throw this way if this features will be available or discarded.
 
-[ ] Use Toast-It JS by CDN referencing.
-[ ] Change the position of the Toast in screen.
-[ ] Unlock the support for more than 10 seconds of onscreen toast messages.
-[ ] To stack more than one notification on screen.
-[ ] Cut or truncate text messages exceeded in length.
-[ ] Hide automatically the close button to releaf its place to the whole text message length.
+- [ ] Use Toast-It JS by CDN referencing.
+- [ ] Change the position of the Toast in screen.
+- [ ] Unlock the support for more than 10 seconds of onscreen toast messages.
+- [ ] To stack more than one notification on screen.
+- [ ] Cut or truncate text messages exceeded in length.
+- [ ] Hide automatically the close button to releaf its place to the whole text message length.
