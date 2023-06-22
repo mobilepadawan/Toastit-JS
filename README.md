@@ -69,7 +69,20 @@ PS: _Please, be careful with the length of text messages to show._
 ### About the messages with an overlength text...
 We are evaluating how to solve this thinking a couple of possible scenarios: 
 * To cut (truncate) the text messages exceeded in length
-* To hide automatically the close button to give its place to the hole text message length.
+* To hide automatically the close button to give its place to the whole text message length.
    * To add a fallback action based on double click or double tap over the Toast-It to close the message
  
 **The feature we picked it up will be included in the future versions of its Library.**
+
+<hr>
+
+## Future addings
+
+They are in revision. We'll inform you here, if this features will be available or discarded.
+
+[] Use Toast-It JS by CDN referencing.
+[] Change the position of the Toast in screen.
+[] Unlock the support for more than 10 seconds of onscreen toast messages.
+[] To stack more than one notification on screen.
+[] Cut or truncate text messages exceeded in length.
+[] Hide automatically the close button to releaf its place to the whole text message length.
