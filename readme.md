@@ -1,75 +1,89 @@
 # Toast-It JS
-A very simple toast message for the web. (`only 1.57 kb`)
+A very simple toast message for the web. (`only 1.57 kb`). ⚖️
+
+Here you have the [Toast-It Website](https://mobilepadawan.github.io/toastit-js/) for watching me in action. 👀
 
 ## How to use it
 Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` Toast-It files.
-Integrate thes efiles in your Web Project throughthe following sintax:
+Integrate these files in your Web Project through the following sintax:
 
-1. **Your JS main file must be declared as `type="module"`. Owr JS file is very lightweight but, if you can improve the HTML loading performance, add the `defer` attribute in your JS file declaration. Here is an example:**
+0. We can't use this JS library as a CDN, yet. In the upcoming version we'll add this optional feature.
 
-```javascript
-<script defer type="module" src="src/js/index.js"></script>
+```html
+<!-- CDN is not supported yet. Please, come back later -->
+<script src="../path/to/cdn/library/toastitv1.0-min.js"></script>
 ```
-The `defer` attribute helps you to declare the JS files into the `<head>` metatag section, avoiding to declare it at the bottom of the HTML document. 
+
+1. Your JS main file must be declared as `type="module"`.
 
 ### CSS configuration
-2. **Add the CSS file in the `<head>` metatag in every HTML document where you'll want to use Toast-It.**
+2. Add the CSS file in the `<head>` metatag in every HTML document where you need to use Toast-It.
 
-```css
-<link rel="stylesheet" href="path/to/css/library/toastitv1.0.css">
+```CSS
+<link rel="stylesheet" href="../path/to/css/library/toastitv1.0-min.css">
 ```
-
 Or you can also import it into your primary CSS file.
 
 ```css
-/* IE: You have a CSS file called `styles.css`.
-   Just add this link at the top of it. */
+/* e.g. if you are using a CSS file called `styles.css`, 
+   add the following link at the top of you CSS file. */
+
 @import url("../path/to/css/library/toastitv1.0-min.css");
 ```
 ### JS configuration
-3. **Add to the top of your JS coding file the import statement for JS module files. 🔝 **
+3. Add at the top of your JS coding file the `import` statement for JS module files. 🔝 
    
 ```javascript
 import ToastIt from "../path/to/js/library/toastitv1.0-min.js";
 ```
 
-3. **Just configure the 4 basic parameter to start using Toasti-It. ⚙️ **
+4. Just configure the four basic parameters to start using Toasti-It. ⚙️
    
 ```javascript
 ToastIt.now({
-            close: true, 
-            style: 'success', 
-            timer: 3700, 
-            message: 'This is a toast message.' 
+            close: true,            // true || false
+            style: 'success',       // generic, info, success, warning, error
+            timer: 3700,            //max: 10000
+            message: `I'm a Toast-It message.` 
         }
 )
 ```
 
-These parameters should be added as an object parameter, into the parenthesis of **.now()** method.
+These parameters should be added as an object parameter, into the parenthesis of `.now()` method.
 
-4. ** Your webapp is ready to enjoy this simple but effective library. 🥂 **
+4. Your webapp is ready to enjoy this simple but effective library. 🥂
 
 <hr>
 
 ## Toast-It in action
 
-Here os an example to show how Toast-It runs in a desktop webapp.
+You have an example to show how Toast-It runs in a desktop webapp.
 
-![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/ToastIt-JS/images/showing-toast-it-in-action-01.gif)
+![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/images/showing-toast-it-in-action-01.gif)
 
 And here is another example about Toast-It running in mobile screens. 
 PS: _Please, be careful with the length of text messages to show._
 
-![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/ToastIt-JS/images/showing-toast-it-in-action-02.gif)
+![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/images/showing-toast-it-in-action-02.gif)
 
 <hr>
 
-### About toast messages with an overlength text...
-We are evaluating how to solve this, thinking a couple of possible scenarios: 
-* To cut (truncate) the text messages exceeded in length, by adding three dots (...) at the end ot it and representing the complete message in the `title` attribute of the Toast message. _(just for reading in desktop applications)_
-* To hide automatically the close button to give its place to the whole text message length.
-   * adding a fallback action based on double click or double tap over the Toast-It to close the message
+### About the messages with an over-length text...
+We are evaluating how to solve this thinking a couple of possible scenarios. It issue is in the bellow list of tasks to improve the library in the upcoming weeks. 
+
+**The feature we picked it up will be included in the future versions of its Library.**
 
 <hr>
 
-**The feature to be chosen it up between 👆 both of listed up, will be included in a future version of this Library.**
+## The upcoming features (we are working on it)
+
+These features are under revision. We'll inform you throw this way if this features will be available or discarded.
+
+- [ ] Use Toast-It JS by CDN referencing.
+- [ ] Change the position of the Toast in screen.
+- [ ] Unlock the support for more than 10 seconds of onscreen toast messages.
+- [ ] To stack more than one notification on screen.
+- [ ] Cut or truncate text messages exceeded in length.
+- [ ] Hide automatically the close button to releaf its place to the whole text message length.
+   * _To add a fallback action based on double click or double tap over the Toast-It to close the message_
+

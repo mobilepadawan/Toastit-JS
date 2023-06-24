@@ -1,11 +1,9 @@
-/*
-    Copyright 2023-06-16: Fernando Omar Luna (just another average JS coder)
+/*  Copyright 2023-06-16: Fernando Omar Luna (just another old JS coder)
     This library is free of use and modify, but, please, don't remove this message
     Send me an email to: ferproonline_at_gmail.com, or DMme by Twitter: @mobilepadawan
-    You can write me in (english, español, oppure l'italiano)
-*/
+    You can write me in (english, español, oppure l'italiano) */
 export default class ToastIt {
-    static message = 'Mensaje predeterminado'
+    static message = this.getLang()
     static style = 'toast-generic'
     static pause = false
     static closeButton = false
@@ -35,7 +33,7 @@ export default class ToastIt {
               divToast.classList.add('toast-generic')
               divToast.classList.replace('toast-generic', this.style)
               divToast.style.fontSize = 'larger !important'
-              divToast.innerHTML = `${message}` || this.message
+              divToast.innerHTML = `${message}` || this.getLang()
               divToast.style.opacity = 0
               if (this.closeButton) {
                   const spanClose = document.createElement('span')
@@ -46,6 +44,7 @@ export default class ToastIt {
                         divToast.appendChild(spanClose)
               }
               document.querySelector('body').insertAdjacentElement('beforebegin', divToast)
+            //   document.querySelector('body').insertAdjacentHTML('afterbegin', divToast)
               if (parseInt(((window.innerWidth - divToast.clientWidth) / window.innerWidth) * 100) < 50) {
                   divToast.style.textAlign = 'justify !important'
                   divToast.style.width = document.body.clientWidth.toString() + 'px'
@@ -67,5 +66,21 @@ export default class ToastIt {
                     setTimeout(()=> divToast.remove(), 200)
                 }, this.timer || 3500)
             }
+    }
+    static getLang() {
+        switch (navigator.language.includes) {
+            case 'es':
+                return 'Mensaje predeterminado'
+                break;
+            case 'en':
+                return 'Default text message'
+                break;
+            case 'it':
+                return 'Messaggio predefinito'
+                break;        
+            default:
+                return 'Default text message'
+                break;
+        }
     }
 }

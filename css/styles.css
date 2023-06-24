@@ -136,3 +136,21 @@ div.image-sample img {
     background-color: red !important;
     border-color: darkred !important;
 }
+
+@media (max-width: 720px) {
+    div.theme-picker {
+        display: none;
+    }
+}
+
+@media (max-width: 612px) {
+    img.img-logo {
+        display: none;
+    }
+}
+
+@media (min-width: 800px) {
+    h1#titulo {
+        text-align: center;
+    }
+}

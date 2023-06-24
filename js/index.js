@@ -14,7 +14,7 @@ const applyThemePicked = ()=> localStorage.getItem('themePicked') || 'auto'
 //Setting up the user's theme saved previously at Localstorage
 document.documentElement.style.setProperty('color-scheme', applyThemePicked())
 //General events used in the webapp
-btnGeneric.addEventListener('click', ()=> mostrarToast('', 'Este es un mensaje algo más extenso de lo normal, para comprobar de qué forma se comporta Toast-It.', 5500, true) )
+btnGeneric.addEventListener('click', ()=> mostrarToast('', 'Este es un mensaje algo + extenso de lo normal, para ver cómo se comporta Toast-It.', 5500, true) )
 btnNotification.addEventListener('click', ()=> mostrarToast('info', 'Esta es una notificación simple.', 10000, true) )
 btnSuccess.addEventListener('click', ()=> mostrarToast('success', 'Este es un mensaje exitoso! (sin btn cerrar)', 5500, false) )
 btnWarning.addEventListener('click', ()=> mostrarToast('alert', 'Esta es una notificación de advertencia', 5500, true) )
