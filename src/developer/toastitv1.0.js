@@ -3,11 +3,12 @@
     Send me an email to: ferproonline_at_gmail.com, or DMme by Twitter: @mobilepadawan
     You can write me in (english, español, oppure l'italiano) */
 export default class ToastIt {
-    static message = this.getLang()
+    static message = ''
     static style = 'toast-generic'
     static pause = false
     static closeButton = false
     static now({style, message, timer, close}) {
+        this.message = message || this.getMessageFromLang()
         this.closeButton = !close && false || close
         this.timer = timer > 10000 && 3500 || timer
         switch (style.toLowerCase() || '') {
@@ -33,7 +34,7 @@ export default class ToastIt {
               divToast.classList.add('toast-generic')
               divToast.classList.replace('toast-generic', this.style)
               divToast.style.fontSize = 'larger !important'
-              divToast.innerHTML = `${message}` || this.getLang()
+              divToast.innerHTML = `${message}`
               divToast.style.opacity = 0
               if (this.closeButton) {
                   const spanClose = document.createElement('span')
@@ -67,7 +68,7 @@ export default class ToastIt {
                 }, this.timer || 3500)
             }
     }
-    static getLang() {
+    static getMessageFromLang() {
         switch (navigator.language.includes) {
             case 'es':
                 return 'Mensaje predeterminado'
