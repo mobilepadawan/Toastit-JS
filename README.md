@@ -4,7 +4,7 @@ A very simple toast message for the web. (`only 2.77 kb`). ⚖️
 Here you have the [Toast-It Website](https://mobilepadawan.github.io/toastit-js/) for watching me in action. 👀
 
 ## How to use it
-Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` Toast-It files.
+Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` files.
 Integrate these files in your Web Project through the following sintax:
 
 0. We can't use this JS library as a CDN, yet. In the upcoming version we'll add this optional feature.
