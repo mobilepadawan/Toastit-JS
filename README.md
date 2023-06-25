@@ -5,22 +5,13 @@ Here you have the [Toast-It Website](https://mobilepadawan.github.io/toastit-js/
 
 ## How to use it
 Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` files.
-Integrate these files in your Web Project through the following sintax:
-
-0. We can't use this JS library as a CDN, yet. In the upcoming version we'll add this optional feature.
-
-```html
-<!-- CDN is not supported yet. Please, come back later -->
-<script src="../path/to/cdn/library/toastitv1.0-min.js"></script>
-```
-
-1. Your JS main file must be declared as `type="module"`.
+Integrate them in your Web Project through the following sintax:
 
 ### CSS configuration
-2. Add the CSS file in the `<head>` metatag in every HTML document where you need to use Toast-It.
+1. Add the CSS file in the `<head>` metatag in every HTML document where you need to use Toast-It.
 
 ```CSS
-<link rel="stylesheet" href="../path/to/css/library/toastitv1.0-min.css">
+   <link rel="stylesheet" href="../path/to/css/library/toastitv1.0-min.css">
 ```
 Or you can also import it into your primary CSS file.
 
@@ -28,16 +19,17 @@ Or you can also import it into your primary CSS file.
 /* e.g. if you are using a CSS file called `styles.css`, 
    add the following link at the top of you CSS file. */
 
-@import url("../path/to/css/library/toastitv1.0-min.css");
+   @import url("../path/to/css/library/toastitv1.0-min.css");
 ```
+
 ### JS configuration
-3. Add at the top of your JS coding file the `import` statement for JS module files. 🔝 
+2. Add at the top of your JS coding file the `import` statement for JS module files. 🔝 
    
 ```javascript
 import ToastIt from "../path/to/js/library/toastitv1.0-min.js";
 ```
 
-4. Just configure the four basic parameters to start using Toasti-It. ⚙️
+3. Just configure the four basic parameters to start using Toasti-It. ⚙️
    
 ```javascript
 ToastIt.now({
@@ -52,6 +44,10 @@ ToastIt.now({
 These parameters should be added as an object parameter, into the parenthesis of `.now()` method.
 
 4. Your webapp is ready to enjoy this simple but effective library. 🥂
+
+4.1. Your JS main JS file and/or the JS files where you'll reference Toast-It JS must be declared as `type="module"`.
+4.2. We can't use this JS library as a CDN, yet. In the upcoming version we'll add this optional feature.
+
 
 <hr>
 
