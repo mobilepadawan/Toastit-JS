@@ -1,5 +1,5 @@
 # Toast-It JS
-A very simple toast message for the web. (`only 1.57 kb`). ⚖️
+A very simple toast message for the web. (`only 2.77 kb`). ⚖️
 
 Here you have the [Toast-It Website](https://mobilepadawan.github.io/toastit-js/) for watching me in action. 👀
 
