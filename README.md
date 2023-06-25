@@ -23,7 +23,7 @@ Or you can also import it into your primary CSS file.
 ```
 
 ### JS configuration
-2. Add at the top of your JS coding file the `import` statement for JS module files. 🔝 
+2. Add to the top of your JS main file the `import` statement to import the Toast-It JS file. 🔝 
    
 ```javascript
 import ToastIt from "../path/to/js/library/toastitv1.0-min.js";
@@ -41,7 +41,7 @@ ToastIt.now({
 )
 ```
 
-These parameters should be added as an object parameter, into the parenthesis of `.now()` method.
+These parameters must be added as an object parameter, into the parenthesis of the `.now()` method.
 
 4. Your webapp is ready to enjoy this simple but effective library. 🥂
 
@@ -58,14 +58,14 @@ You have an example to show how Toast-It runs in a desktop webapp.
 ![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/images/showing-toast-it-in-action-01.gif)
 
 And here is another example about Toast-It running in mobile screens. 
-PS: _Please, be careful with the length of text messages to show._
+PS: _Please, be consistency with the length of toast messages to show._
 
 ![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/images/showing-toast-it-in-action-02.gif)
 
 <hr>
 
 ### About the messages with an overlength text...
-We are evaluating how to solve this thinking a couple of possible scenarios. It issue is in the bellow list of tasks to improve the library in the upcoming weeks. 
+We are evaluating how to solve this thinking a couple of possible scenarios. This issue is in the bellow list of tasks to improve the library in the upcoming weeks. 
 
 **The feature we picked it up will be included in the future versions of its Library.**
 
@@ -76,10 +76,10 @@ We are evaluating how to solve this thinking a couple of possible scenarios. It 
 These features are under revision. We'll inform you throw this way if this features will be available or discarded.
 
 - [ ] Use Toast-It JS by CDN referencing.
-- [ ] Change the position of the Toast in screen.
-- [ ] Unlock the support for more than 10 seconds of onscreen toast messages.
+- [ ] Let to change the Toast-It position on screen.
+- [ ] Unlock the support for more than 10 seconds of the toast messages.
 - [ ] To stack more than one notification on screen.
 - [ ] Cut or truncate text messages exceeded in length.
-- [ ] Hide automatically the close button to releaf its place to the whole text message length.
+- [ ] Automatically hide the 'close' button, to free up space for long message text.
    * _To add a fallback action based on double click or double tap over the Toast-It to close the message_
 
