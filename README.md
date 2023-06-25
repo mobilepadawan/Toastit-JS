@@ -44,8 +44,8 @@ ToastIt.now({
 These parameters must be added as an object parameter, into the parenthesis of the `.now()` method.
 
 4. Your webapp is ready to enjoy this simple but effective library. 🥂
-4.1. Your main JS file and/or the JS files where you'll reference Toast-It JS must be declared as `type="module"`.
-4.2. We can't use this JS library as a CDN, yet. In the upcoming version we'll add this optional feature.
+   1. Your main JS file and/or the JS files where you'll reference Toast-It JS must be declared as `type="module"`.
+   2. We can't use this JS library as a CDN, yet. In the upcoming version we'll add this optional feature.
 
 
 <hr>
