@@ -150,9 +150,9 @@ div.image-sample img {
     }
     
     div.image-sample img {
-    width: 420px;
-    height: 220px;
-}
+        width: 420px;
+        height: 220px;
+    }
 }
 
 @media (min-width: 800px) {
