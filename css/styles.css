@@ -138,6 +138,17 @@ div.image-sample img {
     border-color: darkred !important;
 }
 
+@media (max-width: 900px) {
+    div.theme-picker {
+        display: none;
+    }
+    
+    div.image-sample img {
+        width: 780px;
+        height: 408px;
+    }
+}
+
 @media (max-width: 720px) {
     div.theme-picker {
         display: none;
@@ -164,6 +175,7 @@ div.image-sample img {
     h1#titulo {
         text-align: center;
     }
+    
     div.image-sample img {
         width: auto;
         height: auto;
