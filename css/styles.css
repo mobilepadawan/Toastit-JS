@@ -148,6 +148,11 @@ div.image-sample img {
     img.img-logo {
         display: none;
     }
+    
+    div.image-sample img {
+    width: 420px;
+    height: 220px;
+}
 }
 
 @media (min-width: 800px) {
