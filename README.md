@@ -14,12 +14,12 @@ Integrate them in your Web Project through the following sintax:
 ### CSS configuration
 1. Add the CSS file in the `<head>` metatag in every HTML document where you need to use Toast-It.
 
-```CSS
+```HTML
    <link rel="stylesheet" href="../path/to/css/library/toastitv1.0-min.css">
 ```
 Or you can also import it into your primary CSS file.
 
-```css
+```CSS
 /* e.g. if you are using a CSS file called `styles.css`, 
    add the following link at the top of you CSS file. */
 
