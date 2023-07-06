@@ -166,6 +166,7 @@ div.image-sample img {
     }
     div.image-sample img {
         width: auto;
+        height: auto;
     }
 }
 
