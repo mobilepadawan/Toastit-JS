@@ -164,4 +164,13 @@ div.image-sample img {
     h1#titulo {
         text-align: center;
     }
+    div.image-sample img {
+        width: auto;
+    }
+}
+
+@media (min-width: 800px) {
+    h1#titulo {
+        text-align: center;
+    }
 }
