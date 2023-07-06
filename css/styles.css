@@ -142,6 +142,11 @@ div.image-sample img {
     div.theme-picker {
         display: none;
     }
+    
+    div.image-sample img {
+        width: 600px;
+        height: 314px;
+    }
 }
 
 @media (max-width: 612px) {
