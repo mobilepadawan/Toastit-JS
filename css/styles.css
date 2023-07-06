@@ -160,7 +160,7 @@ div.image-sample img {
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
     h1#titulo {
         text-align: center;
     }
