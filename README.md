@@ -3,6 +3,8 @@ A very simple toast message for the web. (`only 2.77 kb`). ⚖️
 
 ![Built with JavaScript](https://img.shields.io/badge/Built%20with-JavaScript-red?style=for-the-badge&logo=javascript)
 
+![MIT License](https://img.shields.io/npm/l/toastify-js)
+
 Here you have the [Toast-It Website](https://mobilepadawan.github.io/toastit-js/) for watching me in action. 👀
 
 ## How to use it
