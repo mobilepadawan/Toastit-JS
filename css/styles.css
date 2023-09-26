@@ -40,6 +40,7 @@ tbody tr:hover {
 
 div.image-sample {
     text-align: center !important;
+    max-width: 600px;
 }
 
 div.image-sample img {
