@@ -38,7 +38,7 @@ tbody tr:hover {
     float: left;
 }
 
-div.image-sample {
+div img.image-sample {
     text-align: center !important;
     max-width: 600px;
 }
