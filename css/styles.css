@@ -138,7 +138,7 @@ div.image-sample img {
     border-color: darkred !important;
 }
 
-@media (width > 900px) {    
+@media (min-width: 901px) {    
     div.image-sample img {
         max-width: 700px;
         height: 500px;
