@@ -138,6 +138,13 @@ div.image-sample img {
     border-color: darkred !important;
 }
 
+@media (max-width > 900px) {    
+    div.image-sample img {
+        max-width: 700px;
+        height: 408px;
+    }
+}
+
 @media (max-width: 900px) {
     div.theme-picker {
         display: none;
