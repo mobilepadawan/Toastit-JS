@@ -138,7 +138,7 @@ div.image-sample img {
     border-color: darkred !important;
 }
 
-@media (width >= 901px) {    
+@media (min-width: 901px) {    
     div.image-sample img {
         width: 700px;
         height: 500px;
@@ -167,15 +167,13 @@ div.image-sample img {
     }
 }
 
-@media (max-width: 612px) {
-    img.img-logo {
-        display: none;
-    }
-}
-
 @media (min-width: 600px) {
     h1#titulo {
         text-align: center;
+    }
+
+    img.img-logo {
+        display: none;
     }
     
     div.image-sample img {
