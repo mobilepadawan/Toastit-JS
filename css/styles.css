@@ -38,14 +38,14 @@ tbody tr:hover {
     float: left;
 }
 
-div.image-sample img {
+div.image-sample {
     text-align: center !important;
-    max-width: 600px;
 }
 
 div.image-sample img {
-    width: 600px;
+    width: 500px;
     height: 314px;
+    max-width: 500px;
 }
 
 .theme-picker {
