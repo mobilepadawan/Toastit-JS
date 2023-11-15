@@ -1,4 +1,4 @@
-# Toast-It JS
+# Toast-It JS (a JavaScript library for toast messages)
 A very simple ultra-tiny toast message Library for the web. (`only 4.55 kb`). ⚖️
 
 ![Built with JavaScript](https://img.shields.io/badge/Built%20with-JavaScript-red?style=for-the-badge&logo=javascript)
