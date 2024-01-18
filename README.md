@@ -5,7 +5,7 @@ A very simple ultra-tiny toast message Library for the web. (`only 4.55 kb`). �
 
 ![MIT License](https://img.shields.io/npm/l/toastify-js)
 
-Here you have the [Toast-It Website](https://mobilepadawan.github.io/toastit-js/) for watching me in action. 👀
+There is the [Toast-It Official Website](https://mobilepadawan.github.io/toastit-js/) for watching "me" in action. 👀
 
 ## How to use it
 Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` files and add them into your Web Project using the following sintax:
@@ -26,13 +26,13 @@ Or you can also import it into your primary CSS file.
 ```
 
 ### JS configuration
-2. Add to the top of your JS main file the `import` statement to import the Toast-It JS file. 🔝 
+2. Add to the top of your JS main file the `import` statement for importing the Toast-It JS file. 🔝 
    
 ```javascript
 import ToastIt from "../path/to/js/library/toastitv1.0-min.js";
 ```
 
-3. Just configure the four basic parameters to start using Toasti-It. ⚙️
+3. Just configure the onlny four basic parameters to start using Toasti-It. ⚙️
    
 ```javascript
 ToastIt.now({
@@ -44,10 +44,10 @@ ToastIt.now({
 )
 ```
 
-These parameters must be added as an object parameter, into the parenthesis of the `.now()` method.
+These parameters must be added using a literal object structure into the parenthesis of the `.now()` method.
 
 4. Your webapp is ready to enjoy this simple but effective library. 🥂
-   1. Your main JS file and/or the JS files where you'll reference Toast-It JS must be declared as `type="module"`.
+   1. The main main JS file(s) where you declare `Toast-It JS` must be declared as `type="module"`.
    2. We can't use this JS library as a CDN, yet. In the upcoming version we'll add this optional feature.
 
 
@@ -55,19 +55,19 @@ These parameters must be added as an object parameter, into the parenthesis of t
 
 ## Toast-It in action
 
-You have an example to show how Toast-It runs in a desktop webapp.
+Watch the following example where you can show how Toast-It runs in a desktop webapp.
 
 ![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/images/showing-toast-it-in-action-01.gif)
 
-And here is another example about Toast-It running in mobile screens. 
-PS: _Please, be consistency with the length of toast messages to show._
+And here is another example to watch about Toast-It runs in mobile screens.
+PS: _Please, be always consistency with the length of toast messages to show._
 
 ![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/images/showing-toast-it-in-action-02.gif)
 
 <hr>
 
 ### About the messages with an overlength text...
-We are evaluating how to solve this thinking a couple of possible scenarios. This issue is in the bellow list of tasks to improve the library in the upcoming weeks. 
+We are evaluating how to solve this, analysing a couple of possible scenarios: This issue is in the bellow `list of tasks` to improve the library in the upcoming.
 
 **The feature we picked it up will be included in the future versions of its Library.**
 
