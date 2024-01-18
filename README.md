@@ -8,8 +8,7 @@ A very simple ultra-tiny toast message Library for the web. (`only 4.55 kb`). âš
 Here you have the [Toast-It Website](https://mobilepadawan.github.io/toastit-js/) for watching me in action. ðŸ‘€
 
 ## How to use it
-Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` files.
-Integrate them in your Web Project through the following sintax:
+Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` files and add them into your Web Project using the following sintax:
 
 ### CSS configuration
 1. Add the CSS file in the `<head>` metatag in every HTML document where you need to use Toast-It.
