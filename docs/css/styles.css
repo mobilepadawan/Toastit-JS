@@ -40,7 +40,6 @@ tbody tr:hover {
 
 div.image-sample {
     text-align: center !important;
-    max-width: 700px !important;
 }
 
 div.image-sample img {
@@ -139,21 +138,15 @@ div.image-sample img {
     border-color: darkred !important;
 }
 
-@media (min-width: 901px) {    
-    div.image-sample img {
-        width: 700px;
-        height: auto;
+@media (min-width: 900px) {
+    header {
+        margin: 0 auto;
+        max-width: 900px;
     }
-}
 
-@media (max-width: 900px) {
-    div.theme-picker {
-        display: none;
-    }
-    
-    div.image-sample img {
-        max-width: 500px;
-        height: auto;
+    main {
+        margin: 0 auto;
+        max-width: 900px;
     }
 }
 
@@ -161,28 +154,37 @@ div.image-sample img {
     div.theme-picker {
         display: none;
     }
-    
-    div.image-sample img {
-        max-width: 500px;
-        height: auto;
-    }
 }
 
-@media (min-width: 600px) {
-    h1#titulo {
-        text-align: center;
-    }
-
+@media (max-width: 660px) {
     img.img-logo {
         display: none;
     }
-    
-    div.image-sample {
-        max-width: 360px !important;
+}
+
+@media (max-width: 550px) {
+    h1 {
+        font-size: 3.5rem;
     }
 
-    div.image-sample img {
-        max-width: 100%;
-        height: auto;
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 420px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p,
+    select,
+    input,
+    span, div {
+        font-size: medium;
     }
 }
