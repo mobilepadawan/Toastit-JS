@@ -1,5 +1,5 @@
 # Toast-It JS (a JavaScript library for toast messages)
-A very simple ultra-tiny toast message Library for the web. (`only 4.55 kb`). ⚖️
+A very simple ultra-tiny toast message Library for the web. (`only 2.8 kb (JS + CSS)`). ⚖️
 
 ![Built with JavaScript](https://img.shields.io/badge/Built%20with-JavaScript-red?style=for-the-badge&logo=javascript)
 
@@ -46,7 +46,7 @@ ToastIt.now({
 
 These parameters must be added using a literal object structure into the parenthesis of the `.now()` method.
 
-4. Your webapp is ready to enjoy this simple but effective library. 🥂
+4. Your webapp is ready to enjoy this simple but effective library.
    1. The main main JS file(s) where you declare `Toast-It JS` must be declared as `type="module"`.
    2. We can't use this JS library as a CDN, yet. In the upcoming version we'll add this optional feature.
 
@@ -77,10 +77,10 @@ We are evaluating how to solve this, analysing a couple of possible scenarios: T
 
 These features are under revision. We'll inform you throw this way if this features will be available or discarded.
 
+- [x] To stack more than one notification on screen. (2024-03-08)
 - [ ] Use Toast-It JS by CDN referencing.
 - [ ] Let to change the Toast-It position on screen.
 - [ ] Unlock the support for more than 10 seconds of the toast messages.
-- [ ] To stack more than one notification on screen.
 - [ ] Cut or truncate text messages exceeded in length.
 - [ ] Automatically hide the 'close' button, to free up space for long message text.
    * _To add a fallback action based on double click or double tap over the Toast-It to close the message_
