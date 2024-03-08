@@ -5,7 +5,7 @@ A very simple ultra-tiny toast message Library for the web. (`only 2.8 kb (JS + 
 
 ![MIT License](https://img.shields.io/npm/l/toastify-js)
 
-There is the [Toast-It Official Website](https://mobilepadawan.github.io/toastit-js/) for watching "me" in action. 👀
+There is the [Toast-It Official Website](https://mobilepadawan.github.io/Toastit-JS/) for watching "me" in action. 👀
 
 ## How to use it
 Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` files and add them into your Web Project using the following sintax:
