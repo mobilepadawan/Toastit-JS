@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ToastIt Web Testing</title>
+        <link rel="shortcut icon" href="images/toaster-64.png" type="image/png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#000">
+        <meta name="description" content="ToastIt-JS is a an very simple ultratiny JS library to create easy notifications toast messages.">
+        <meta name="keywords" content="JavaScript, Library, ToastIt-JS, ultra-tiny Library, Toast messages, Notification messages">
+        <link rel="canonical" href="https://mobilepadawan.github.io/Toastit-JS">
+        <meta name="author" content="Fernando Omar Luna - @mobilepadawan">    
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" href="css/styles.css">
+        <script defer type="module" src="js/index.js"></script>
+    </head>
+    <body>
+        <div class="theme-picker">
+            <div class="emoji sun" title="Click to select Light Theme">☀️</div>
+            <div class="emoji moon" title="Click to select Dark Theme">🌘</div>
+        </div>
+        <header>
+            <img class="img-logo" src="images/toaster-64.png" alt="Toaster Icon (Copyrighted by Freepik)">
+            <h1 id="titulo">Testing the Toast-It library</h1>
+            <p>You can <strong>watch a sample Toast message</strong> at the top-right of the screen just by clicking the different buttons below.</p>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <div class="image-sample">
+                        <img src="images/toastit-sample.png" alt="Toast-It sample code">
+                        <hr>
+                    </div>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h2>Generic message</h2>
+                    <p>A very simple generic message. This tone is using the default colour for the background. If you miss to configure the style, this tone will be shown by default.</p>
+                    <button class="button-generic">Generic Message</button>
+                    <!-- <hr> -->
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h2>Notification message</h2>
+                    <p>This message is using the classic blue colour to represent a very simple notification. You can pick to show or not a closing button at the end of the message.</p>
+                    <button class="button-notification">Notification Message</button>
+                    <!-- <hr> -->
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h2>Success message</h2>
+                    <p>This message is using the classic green colour to represent a success notification. You can pick to show or not a closing button at the end of the message.</p>
+                    <button class="button-success">Success Message</button>
+                    <!-- <hr> -->
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h2>Warning message</h2>
+                    <p>This message is using the classic warning colour to represent a warning or a caution notification. You can pick to show or not a closing button at the end of the message.</p>
+                    <p>Warning messages are using by default a <strong>font-weight=700</strong> to get a better message reading.</p>
+                    <button class="button-warning">Warning Message</button>
+                    <!-- <hr> -->
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h2>Error message</h2>
+                    <p>This message is using the red colour to represent an error message. You can pick to show or not a closing button at the end of the message.</p>
+                    <p>Error messages are using by default a <strong>font-weight=700</strong> to get a better message reading.</p>
+                    <button class="button-error">Error Message</button>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
