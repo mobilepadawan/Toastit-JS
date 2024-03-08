@@ -1,0 +1,47 @@
+/*
+    This CSS stylesheet file is part of the ToastIt JS Library.
+    Is copyrighted: Fernando Omar Luna. If you find it alone, please DMme by Twitter @mobilepadawan.
+    Do not change the CSS style names because of the Toastit-JS library are using them.
+*/
+.toast-div {
+    font-size: 2rem;
+    text-align: left;
+    vertical-align: larger;
+    position: fixed;
+    width: auto;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 9999;
+    box-shadow: 0 4px 7px #00000080;
+    user-select: none;
+    color: #ffffff;
+}
+
+.toast-generic {
+    background-color: #6c757d;
+}
+
+.toast-info {
+    background-color: #5e8ee7;
+}
+
+.toast-success {
+    background-color: #28a745;
+}
+
+.toast-warning {
+    background-color: #d58a07;
+}
+
+.toast-error {
+    background-color: #dc3545;
+}
+
+.toast-span-close {
+    cursor: pointer;
+    padding-left: 10px;
+    font-size: 2rem;
+    float: right;
+}
