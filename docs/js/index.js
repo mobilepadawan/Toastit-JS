@@ -1,4 +1,4 @@
-import ToastIt from "./toastitv1.0-min.js"
+import ToastIt from "toastitv1.0-min.js"
 //Dom connected HTML elements
 const btnGeneric = document.querySelector('button.button-generic')
 const btnNotification = document.querySelector('button.button-notification')
