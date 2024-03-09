@@ -19,14 +19,14 @@ Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` 
 Or you can also import it into your primary CSS file by importing the toastitv1.0 CSS file via CSS `@import`.
 
 ```CSS
-@import url("../path/to/css/library/toastitv1.0-min.css");
+@import url("../path/to/css/libraries/toastitv1.0-min.css");
 ```
 
 ### JS configuration
 2. Add to the top of your JS main file the `import` statement for importing the Toast-It JS file. 🔝 
    
 ```javascript
-import ToastIt from "../path/to/js/library/toastitv1.0-min.js";
+import ToastIt from "../path/to/js/libraries/toastitv1.0-min.js";
 ```
 
 3. Just configure the onlny four basic parameters to start using Toasti-It. ⚙️
@@ -52,7 +52,7 @@ If you prefer to use the CDN version of `Toastit-JS`, please download the minifi
 
 ```HTML
 <head>
-   <script src="js/toastitv1.0-cdn-min.js"></script>
+   <script src="path/to/js/libraries/toastitv1.0-cdn-min.js"></script>
 </head>
 ```
 
