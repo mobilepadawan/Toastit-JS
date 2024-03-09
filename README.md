@@ -14,15 +14,12 @@ Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` 
 1. Add the CSS file in the `<head>` metatag in every HTML document where you need to use Toast-It.
 
 ```HTML
-   <link rel="stylesheet" href="../path/to/css/library/toastitv1.0-min.css">
+<link rel="stylesheet" href="../path/to/css/library/toastitv1.0-min.css">
 ```
-Or you can also import it into your primary CSS file.
+Or you can also import it into your primary CSS file by importing the toastitv1.0 CSS file via CSS `@import`.
 
 ```CSS
-/* e.g. if you are using a CSS file called `styles.css`, 
-   add the following link at the top of you CSS file. */
-
-   @import url("../path/to/css/library/toastitv1.0-min.css");
+@import url("../path/to/css/library/toastitv1.0-min.css");
 ```
 
 ### JS configuration
@@ -50,6 +47,8 @@ These parameters must be added using a literal object structure into the parenth
    1. The main main JS file(s) where you declare `Toast-It JS` must be declared as `type="module"`.
    2. We can't use this JS library as a CDN, yet. In the upcoming version we'll add this optional feature.
 
+### CDN alternative
+If you prefer to use the CDN version of `Toastit-JS`, please download the minified version of `toastitv1.0-cdn.js`. The CSS file is the same for both JS librares.
 
 <hr>
 
@@ -57,12 +56,12 @@ These parameters must be added using a literal object structure into the parenth
 
 Watch the following example where you can show how Toast-It runs in a desktop webapp.
 
-![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/images/showing-toast-it-in-action-01.gif)
+![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/Toastit-JS/main/images/showing-toast-it-in-action-01.gif)
 
 And here is another example to watch about Toast-It runs in mobile screens.
 PS: _Please, be always consistency with the length of toast messages to show._
 
-![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/toastit-js/main/images/showing-toast-it-in-action-02.gif)
+![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/Toastit-JS/main/images/showing-toast-it-in-action-02.gif)
 
 <hr>
 
@@ -78,7 +77,7 @@ We are evaluating how to solve this, analysing a couple of possible scenarios: T
 These features are under revision. We'll inform you throw this way if this features will be available or discarded.
 
 - [x] To stack more than one notification on screen. (2024-03-08)
-- [ ] Use Toast-It JS by CDN referencing.
+- [x] Use Toast-It JS by CDN referencing.
 - [ ] Let to change the Toast-It position on screen.
 - [ ] Unlock the support for more than 10 seconds of the toast messages.
 - [ ] Cut or truncate text messages exceeded in length.
