@@ -48,7 +48,15 @@ These parameters must be added using a literal object structure into the parenth
    2. We can't use this JS library as a CDN, yet. In the upcoming version we'll add this optional feature.
 
 ### CDN alternative
-If you prefer to use the CDN version of `Toastit-JS`, please download the minified version of `toastitv1.0-cdn.js`. The CSS file is the same for both JS librares.
+If you prefer to use the CDN version of `Toastit-JS`, please download the minified version of `toastitv1.0-cdn.js`. 
+
+```HTML
+<head>
+   <script src="js/toastitv1.0-cdn-min.js"></script>
+</head>
+```
+
+The CSS file is the same for both JS librares.
 
 <hr>
 
