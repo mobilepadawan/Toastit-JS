@@ -56,7 +56,7 @@ If you prefer to use the CDN version of `Toastit-JS`, please download the minifi
 </head>
 ```
 
-The CSS file is the same for both JS librares.
+The CSS file is the same for both JS libraries.
 
 <hr>
 
