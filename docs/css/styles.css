@@ -5,12 +5,10 @@
 html {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 8px;
+    user-select: none;
 }
 
-p,
-select,
-input,
-span, div {
+p, select, input, span, div {
     font-size: large;
 }
 
@@ -46,6 +44,53 @@ div.image-sample img {
     width: 700px;
     height: auto;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.card-sample {
+    position: relative;
+    text-align: center;
+    width: 280px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 16px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px black;
+
+    &:hover {
+        transition: 0.3s ease-in;
+        box-shadow: 6px 8px 10px rgba(50, 50, 50, 0.454);
+    }
+
+    & p {
+        text-wrap: balance;
+    }
+
+    & div.button-align {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        bottom: 10px;
+    }
+    
+    & button {
+        text-align: center;
+        width: 200px;
+    }
+}
+
+
 
 .theme-picker {
     float: right;
@@ -139,14 +184,9 @@ div.image-sample img {
 }
 
 @media (min-width: 900px) {
-    header {
+    header, main {
         margin: 0 auto;
-        max-width: 900px;
-    }
-
-    main {
-        margin: 0 auto;
-        max-width: 900px;
+        max-width: 1000px;
     }
 }
 
