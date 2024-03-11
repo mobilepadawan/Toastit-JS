@@ -63,11 +63,11 @@ div.image-sample img {
     padding: 16px;
     margin: 20px;
     border-radius: 10px;
-    box-shadow: 6px 6px 20px black;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.199);
 
     &:hover {
         transition: 0.3s ease-in;
-        box-shadow: 6px 8px 10px rgba(50, 50, 50, 0.454);
+        box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.400);
     }
 
     & p {
