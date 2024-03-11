@@ -64,12 +64,12 @@ The CSS file is the same for both JS libraries.
 
 Watch the following example where you can show how Toast-It runs in a desktop webapp.
 
-![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/Toastit-JS/main/images/showing-toast-it-in-action-01.gif)
+![Toast-It running in a desktop webapp](images/showing-toast-it-in-action-01.gif)
 
 And here is another example to watch about Toast-It runs in mobile screens.
 PS: _Please, be always consistency with the length of toast messages to show._
 
-![Toast-It running in a desktop webapp](https://raw.githubusercontent.com/mobilepadawan/Toastit-JS/main/images/showing-toast-it-in-action-02.gif)
+![Toast-It running in a desktop webapp](images/showing-toast-it-in-action-02.gif)
 
 <hr>
 
