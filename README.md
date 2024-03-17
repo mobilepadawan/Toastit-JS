@@ -73,10 +73,12 @@ PS: _Please, be always consistency with the length of toast messages to show._
 
 <hr>
 
-### About the messages with an overlength text...
-We are evaluating how to solve this, analysing a couple of possible scenarios: This issue is in the bellow `list of tasks` to improve the library in the upcoming.
+### Beta versions
+If you want to see in what we are working on, you can try the `beta` versions of our library located in de `developer` folder of this repository. In the actual Beta versión started on March 21th 2024, we added support for a fifth parameter called `position`. 
+It will able you to configure a `right`, `center` or `left` position for the Toast message on screen.
 
-**The feature we picked it up will be included in the future versions of its Library.**
+The current beta version is fully functional `but only using the library as a Module`. If you want to try, don¡t forget to also download the CSS file.
+
 
 <hr>
 
