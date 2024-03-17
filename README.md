@@ -86,8 +86,8 @@ These features are under revision. We'll inform you throw this way if this featu
 
 - [x] To stack more than one notification on screen. (2024-03-08)
 - [x] Use Toast-It JS by CDN referencing.
-- [ ] Let to change the Toast-It position on screen.
-- [ ] Unlock the support for more than 10 seconds of the toast messages.
+- [x] Let to change the Toast-It position on screen.
+- [x] Unlock the support for more than 10 seconds of the toast messages.
 - [ ] Cut or truncate text messages exceeded in length.
 - [ ] Automatically hide the 'close' button, to free up space for long message text.
    * _To add a fallback action based on double click or double tap over the Toast-It to close the message_
