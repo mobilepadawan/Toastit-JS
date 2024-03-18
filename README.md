@@ -77,6 +77,17 @@ PS: _Please, be always consistency with the length of toast messages to show._
 If you want to see in what we are working on, you can try the `beta` versions of our library located in de `developer` folder of this repository. In the actual Beta versión started on March 21th 2024, we added support for a fifth parameter called `position`. 
 It will able you to configure a `right`, `center` or `left` position for the Toast message on screen.
 
+```javascript
+ToastIt.now({
+            close: true,               // true || false
+            style: 'success',          // generic, info, success, warning, error
+            timer: 3700,               //max: 10000
+            message: `I'm a Toast-It message.`,
+            position: 'right'          // left, center, or right 
+        }
+)
+```
+
 The current beta version is fully functional `but only using the library as a Module`. If you want to try, don¡t forget to also download the CSS file.
 
 
