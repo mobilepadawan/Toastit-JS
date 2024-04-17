@@ -74,10 +74,10 @@ PS: _Please, be always consistency with the length of toast messages to show._
 <hr>
 
 ### First final version (📆 April 2024)
-We have launched the final version of `ToastIt JS module` and `ToastIt JS CDN` the first days of April 2024.  The current final version is the 1.0.
+We have launched the final version of `ToastIt JS module` and `ToastIt JS CDN` the first days of April 2024.  The current final version is the `1.0`.
 
 ### Beta version (work in progress)
-In this beta version (1.1) we are including the posibility to configure a `right`, `center` or `left` position for the Toast message on screen. Stayed tune for more information.
+In this beta version `1.1` we are including the posibility to configure a `right`, `center` or `left` position for the Toast message on screen. Stayed tune for more information.
 
 ```javascript
 ToastIt.now({
