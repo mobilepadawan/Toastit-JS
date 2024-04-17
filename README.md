@@ -74,7 +74,10 @@ PS: _Please, be always consistency with the length of toast messages to show._
 <hr>
 
 ### First final version (📆 April 2024)
-We have launched the final version of `ToastIt JS module` and `ToastIt JS CDN` the first days of April 2024. In this version we included the posibility to configure a `right`, `center` or `left` position for the Toast message on screen.
+We have launched the final version of `ToastIt JS module` and `ToastIt JS CDN` the first days of April 2024.  The current final version is the 1.0.
+
+### Beta version (work in progress)
+In this beta version (1.1) we are including the posibility to configure a `right`, `center` or `left` position for the Toast message on screen. Stayed tune for more information.
 
 ```javascript
 ToastIt.now({
@@ -87,13 +90,11 @@ ToastIt.now({
 )
 ```
 
-The current beta version is fully functional `but only using the library as a Module`. If you want to try, don¡t forget to also download the CSS file.
-
+The current beta version is fully functional `but only using the library as a Module`. If you want to try, don't forget to also download the CSS file.
 
 <hr>
 
 ## The upcoming features (we are working on it)
-
 These features are under revision. We'll inform you throw this way if this features will be available or discarded.
 
 - [x] To stack more than one notification on screen. (2024-03-08)
