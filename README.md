@@ -90,9 +90,9 @@ ToastIt.now({
 )
 ```
 
-The current beta version is fully functional `but only using the library as a Module`. If you want to try, don't forget to also download the CSS file. The filename we are working on is `toastitv1.1-beta.js` located at the `developers` folder. 
+The current beta version is fully functional but only as a Module Library. If you want to try, don't forget to also download the CSS file. The filename we are working on is `toastitv1.1-beta.js` located at the developers folder.
 
-🤚🏼 Please do not use this version to **Production Products**!
+🤚🏼 Please do not use this version for **Products in Production!**!
 
 <hr>
 
