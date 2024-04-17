@@ -1,7 +1,7 @@
-# Toast-It JS (a JavaScript library for toast messages)
+# Toast-It JS (JS library for toast messages)
 A very simple ultra-tiny toast message Library for the web. (`only 2.8 kb (JS + CSS)`). ⚖️
 
-![Built with JavaScript](https://img.shields.io/badge/Built%20with-JavaScript-red?style=for-the-badge&logo=javascript)
+![Built with JavaScript](https://img.shields.io/badge/Built%20with-JavaScript-red?style=for-the-badge&logo=javascript) 
 
 ![MIT License](https://img.shields.io/npm/l/toastify-js)
 
@@ -14,19 +14,19 @@ Download the minified version of `toastitv1.0-min.css` and `toastitv1.0-min.js` 
 1. Add the CSS file in the `<head>` metatag in every HTML document where you need to use Toast-It.
 
 ```HTML
-<link rel="stylesheet" href="../path/to/css/library/toastitv1.0-min.css">
+<link rel="stylesheet" href="../path/to/css/library/toastitv1.0.min.css">
 ```
 Or you can also import it into your primary CSS file by importing the toastitv1.0 CSS file via CSS `@import`.
 
 ```CSS
-@import url("../path/to/css/libraries/toastitv1.0-min.css");
+@import url("../path/to/css/libraries/toastitv1.0.min.css");
 ```
 
 ### JS configuration
 2. Add to the top of your JS main file the `import` statement for importing the Toast-It JS file. 🔝 
    
 ```javascript
-import ToastIt from "../path/to/js/libraries/toastitv1.0-min.js";
+import ToastIt from "../path/to/js/libraries/toastitv1.0.min.js";
 ```
 
 3. Just configure the onlny four basic parameters to start using Toasti-It. ⚙️
@@ -52,7 +52,7 @@ If you prefer to use the CDN version of `Toastit-JS`, please download the minifi
 
 ```HTML
 <head>
-   <script src="path/to/js/libraries/toastitv1.0-cdn-min.js"></script>
+   <script src="path/to/js/libraries/toastitv1.0-cdn.min.js"></script>
 </head>
 ```
 
@@ -74,8 +74,10 @@ PS: _Please, be always consistency with the length of toast messages to show._
 <hr>
 
 ### Beta versions
-If you want to see in what we are working on, you can try the `beta` versions of our library located in de `developer` folder of this repository. In the actual Beta versión started on March 21th 2024, we added support for a fifth parameter called `position`. 
-It will able you to configure a `right`, `center` or `left` position for the Toast message on screen.
+~~  If you want to see in what we are working on, you can try the `beta` versions of our library located in de `developer` folder of this repository. In the actual Beta versión started on March 21th 2024, we added support for a fifth parameter called `position`. ~~ 
+
+### First final version
+We have launched the final version of `ToastIt JS module` and `ToastIt JS CDN` the first days of April 2024. In this version we included the posibility to configure a `right`, `center` or `left` position for the Toast message on screen.
 
 ```javascript
 ToastIt.now({
