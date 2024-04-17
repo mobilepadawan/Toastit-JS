@@ -73,10 +73,7 @@ PS: _Please, be always consistency with the length of toast messages to show._
 
 <hr>
 
-### Beta versions
-~~  If you want to see in what we are working on, you can try the `beta` versions of our library located in de `developer` folder of this repository. In the actual Beta versión started on March 21th 2024, we added support for a fifth parameter called `position`. ~~ 
-
-### First final version
+### First final version (📆 April 2024)
 We have launched the final version of `ToastIt JS module` and `ToastIt JS CDN` the first days of April 2024. In this version we included the posibility to configure a `right`, `center` or `left` position for the Toast message on screen.
 
 ```javascript
