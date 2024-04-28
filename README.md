@@ -103,6 +103,7 @@ These features are under revision. We'll inform you throw this way if this featu
 - [x] Use Toast-It JS by CDN referencing.
 - [x] Let to change the Toast-It position on screen.
 - [x] Unlock the support for more than 10 seconds of the toast messages.
+- [ ] Fix the HTML <dialog> issue when ToastIt is shown behind the ::backdrop style
 - [ ] Cut or truncate text messages exceeded in length.
 - [ ] Automatically hide the 'close' button, to free up space for long message text.
    * _To add a fallback action based on double click or double tap over the Toast-It to close the message_
