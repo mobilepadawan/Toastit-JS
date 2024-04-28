@@ -44,7 +44,11 @@ export default class ToastIt {
                         spanClose.addEventListener('click', ()=> divToast.remove())
                         divToast.appendChild(spanClose)
               }
-              document.querySelector('body').insertAdjacentElement('beforebegin', divToast)
+              if (document.querySelector("dialog[open]") {
+                  document.querySelector('dialog').insertAdjacentElement('beforebegin', divToast)
+              } else {
+                  document.querySelector('body').insertAdjacentElement('beforebegin', divToast)
+              }
               if (parseInt(((window.innerWidth - divToast.clientWidth) / window.innerWidth) * 100) < 50) {
                   divToast.style.textAlign = 'justify !important'
                   divToast.style.width = document.body.clientWidth.toString() + 'px'
