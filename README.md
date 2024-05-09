@@ -105,6 +105,20 @@ These features are under revision. We'll inform you throw this way if this featu
 - [x] Unlock the support for more than 10 seconds of the toast messages.
 - [ ] Fix the HTML <dialog> issue when ToastIt is shown behind the ::backdrop style
 - [ ] Cut or truncate text messages exceeded in length.
-- [ ] Automatically hide the 'close' button, to free up space for long message text.
+- [ ] ~~ Automatically hide the 'close' button, to free up space for long message text. ~~
    * _To add a fallback action based on double click or double tap over the Toast-It to close the message_
 
+### Another things in beta phase
+
+We are developing some additional Stylesheet files to improve the only option offered by `Toast-It JS`. In the coming weeks you can profit the first one, `modern CSS stylesheet`, to replace the default CSS stylesheet. This `new` option will offer a clean and less invasive colour pallette.
+
+### Classic ToastIt CSS stylesheet
+![Classic ToastIt CSS stylesheet](https://raw.githubusercontent.com/mobilepadawan/Toastit-JS/main/docs/images/default-css-toastit.png)
+
+### Modern ToastIt CSS stylesheet
+![Modern ToastIt CSS stylesheet](https://raw.githubusercontent.com/mobilepadawan/Toastit-JS/main/docs/images/modern-css-toastit.png)
+
+### Emoji friendly
+Also the modern CSS stylesheet file is kindly friendly to an emoji using it option for the message complimenting.
+
+![Modern ToastIt CSS stylesheet is emoji friendly](https://raw.githubusercontent.com/mobilepadawan/Toastit-JS/main/docs/images/emoji-css-modern-toastit.png)
