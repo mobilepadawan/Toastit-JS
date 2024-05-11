@@ -32,4 +32,4 @@ btnGeneric.addEventListener('click', ()=> mostrarToast('', 'A generic Toast-It m
 btnNotification.addEventListener('click', ()=> mostrarToast('info', 'A simple notification.', 5000, true, 'center') )
 btnSuccess.addEventListener('click', ()=> mostrarToast('success', 'Successful message.', 5000, true, 'right') )
 btnWarning.addEventListener('click', ()=> mostrarToast('warning', 'A warning message.', 5000, true, 'left') )
-btnError.addEventListener('click', ()=> mostrarToast('error', 'Houston, we have a problem.', 5000, true, 'center') )
+btnError.addEventListener('click', ()=> mostrarToast('error', 'Houston: we have a problem.', 5000, true, 'center') )
