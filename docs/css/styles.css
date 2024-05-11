@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css');
 @import url('./toastitv1.0-min.css');
+/* @import url('../../developer/toastitv1.0.modern.css'); */
 
 html {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -59,7 +60,7 @@ div.image-sample img {
     text-align: center;
     width: 280px;
     height: 360px;
-    border: 1px solid gray;
+    border: 1px solid black;
     padding: 16px;
     margin: 20px;
     border-radius: 10px;
