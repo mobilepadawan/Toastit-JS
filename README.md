@@ -1,5 +1,5 @@
 # Toast-It JS (Toast messages very easy)
-A very simple ultra-tiny toast message Library for the web. (`only 2.8 kb (JS + CSS)`). ⚖️
+A very simple ultra-tiny toast message Library for the web. (`Less than 3KB (JS + CSS)`). ⚖️
 
 ![Built with JavaScript](https://img.shields.io/badge/Built%20with-JavaScript-red?style=for-the-badge&logo=javascript) 
 
