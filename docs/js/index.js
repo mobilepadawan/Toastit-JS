@@ -1,4 +1,4 @@
-import ToastIt from '../../developer/toastitv1.0.js'
+import ToastIt from '../developer/toastitv1.0.js'
 // import ToastIt from '../../developer/toastitv1.1-beta.js'
 
 //Dom connected HTML elements
