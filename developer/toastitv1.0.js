@@ -5,8 +5,8 @@ export default class ToastIt {
     static closeButton = false
     static now({style, message, timer, close}) {
         this.message = message || this.getMessageFromLang()
-        this.closeButton = !close && false || close
         this.timer = timer > 10000 && 3500 || timer
+        this.timer = timer
         switch (style.toLowerCase() || '') {
             case 'info':
                 this.style = 'toast-info'
@@ -30,25 +30,23 @@ export default class ToastIt {
               divToast.classList.add('toast-generic')
               divToast.classList.replace('toast-generic', this.style)
               divToast.style.fontSize = 'larger !important'
-              divToast.innerHTML = `${message}`
               divToast.style.opacity = 0
               const existingToasts = document.querySelectorAll('.toast-div')
               const existingToastsCount = existingToasts.length
               const topOffset = 20 + existingToastsCount * (40 + 20)
               divToast.style.top = `${topOffset}px`
               if (this.closeButton) {
+                  const paragraph = document.createElement('p')
+                        paragraph.style.fontSize = 'larger !important'
+                        paragraph.style.display = 'inline'
+                        paragraph.innerHTML = `${message}`
                   const spanClose = document.createElement('span')
                         spanClose.classList.add('toast-span-close')
-                        spanClose.style.fontSize = 'larger !important'
                         spanClose.textContent = ' ⓧ'
                         spanClose.addEventListener('click', ()=> divToast.remove())
-                        divToast.appendChild(spanClose)
+                        divToast.append(paragraph, spanClose)
               }
-              if (document.querySelector("dialog[open]") {
-                  document.querySelector('dialog').insertAdjacentElement('beforebegin', divToast)
-              } else {
-                  document.querySelector('body').insertAdjacentElement('beforebegin', divToast)
-              }
+              document.querySelector('body').insertAdjacentElement('beforebegin', divToast)
               if (parseInt(((window.innerWidth - divToast.clientWidth) / window.innerWidth) * 100) < 50) {
                   divToast.style.textAlign = 'justify !important'
                   divToast.style.width = document.body.clientWidth.toString() + 'px'
