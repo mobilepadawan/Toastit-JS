@@ -148,4 +148,4 @@ Also the modern CSS stylesheet file is such friendly for using an emoji with the
 ![Modern ToastIt CSS stylesheet is emoji friendly](https://raw.githubusercontent.com/mobilepadawan/Toastit-JS/main/docs/images/emoji-css-modern-toastit.png)
 
 ### How to test modern CSS
-🔔 If you want to try this another CSS Styles, download the `toastitv1.0.modern.css` file from the `/developer` folder. BTW this file is still in development process and this is the reason that we don't have a minified version yet, and maybe it includes a couple of bugs and/or applied properties which still needs a fine tuning.
+🔔 If you want to try this another CSS Styles, download the `toastitv1.0.modern.css` file from the `/developer` folder. This version can be modified for you if you want to make some improvements over the beta version's code. If you don't want to make improvements, please download a beta version of this CSS located at the `/src` folder.
