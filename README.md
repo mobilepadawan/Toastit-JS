@@ -134,9 +134,9 @@ These features are under revision. We'll inform you throw this way if this featu
 
 ### Another things in beta phase
 
-`
+```
 🔔 Recently (2024-06-06) the modern CSS file came to its final version.
-`
+```
 
 We are developing some additional Stylesheet files to improve the only option offered by `Toast-It JS`. In the coming weeks you can profit the first one, `modern CSS stylesheet`, to replace the default CSS stylesheet. This `new` option will offer a clean and less invasive colour pallette.
 
