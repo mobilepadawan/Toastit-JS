@@ -106,7 +106,7 @@ Stay tuned for more information.
 ```javascript 
 ToastIt.now({
             close: true,               // true || false
-            style: 'success',          // generic, info, success, warning, error
+            style: 'success',          // info, success, warn, error
             timer: 3700,               //max: 10000
             position: 'right',         // left, center, or right 
             message: `I'm a Toast-It message.`
