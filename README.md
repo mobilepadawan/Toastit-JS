@@ -7,6 +7,8 @@ A very simple ultra-tiny toast message Library for the web. (`Less than 3KB (JS 
 
 Visit the [Toast-It Official Website](https://mobilepadawan.github.io/Toastit-JS/) for watching "me" in action. 👀
 
+[If you like this Project, BUY ME A COFFE ☕️ ](https://www.buymeacoffee.com/invite/mobilepadawan)
+
 # Summary
 
 [How to use it](#how-to-use-it)
