@@ -56,6 +56,9 @@ export default class ToastIt {
                 break;
         }
         divToast.style.top = topOffset;
+        divToast.style.position = 'fixed';
+        divToast.style.zIndex = '100000';
+        divToast.style.textAlign = 'justify !important';
 
         if (this.closeButton) {
             const spanClose = document.createElement('span');
@@ -66,8 +69,9 @@ export default class ToastIt {
             divToast.appendChild(spanClose);
         }
 
-        document.querySelector('body').insertAdjacentElement('beforebegin', divToast);
-        divToast.style.textAlign = 'justify !important';
+        // document.querySelector('body').insertAdjacentElement('beforebegin', divToast);
+        const targetContainer = document.querySelector('dialog[open]') || document.body;
+        targetContainer.appendChild(divToast);
 
         let i = 0;
         const si = setInterval(() => {
